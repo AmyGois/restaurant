@@ -1,0 +1,51 @@
+:root {
+  --hero-colour-1: #33517a;
+  --hero-colour-2: #e63946;
+  --secondary-colour-1: #a8dadc;
+  --secondary-colour-2: #f1faee;
+}
+
+body,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main page layout */
+body {
+  margin: 0;
+}
+
+#content {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 160px 60px 1fr 50px;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+header,
+nav,
+footer {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+  background-color: var(--hero-colour-1);
+  color: #fff;
+}
+
+nav,
+footer {
+  align-items: center;
+}
+
+header {
+  align-items: end;
+}
+
+main {
+  grid-column: 2 / 3;
+}
+
+aside {
+  grid-column: 3 / 4;
+}
