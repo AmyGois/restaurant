@@ -29,10 +29,10 @@ const loadAboutTab = () => {
 
   /* Images */
   const img1 = document.createElement('img');
-  img1.setAttribute('src', '../media/duck.jpg');
+  img1.setAttribute('src', './media/duck.jpg');
   img1.setAttribute('alt', 'roast chicken with potatoes and vegetables');
   const img2 = document.createElement('img');
-  img2.setAttribute('src', '../media/cake.jpg');
+  img2.setAttribute('src', './media/cake.jpg');
   img2.setAttribute('alt', 'chocolate cake');
 
   mainAboutImages.appendChild(img1);
