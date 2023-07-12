@@ -1,4 +1,6 @@
 import loadPage from './loadPage';
+import loadMenuTab from './loadMenuTab';
+
 console.log('Up and running!');
 
 /* Make this reusable later */
@@ -13,4 +15,6 @@ const updateButtons = (buttonClass) => {
   });
 };
 
-updateButtons('button-tab-1');
+loadMenuTab();
+
+updateButtons('button-tab-2');

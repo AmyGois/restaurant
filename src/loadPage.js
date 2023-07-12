@@ -65,7 +65,7 @@ const loadPage = (() => {
   main.appendChild(h2);
   main.appendChild(divMainContent);
 
-  loadAboutTab();
+  /* loadAboutTab(); */
 })();
 
 export default loadPage;

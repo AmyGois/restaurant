@@ -37,16 +37,6 @@ const loadAboutTab = () => {
 
   mainAboutImages.appendChild(img1);
   mainAboutImages.appendChild(img2);
-
-  /* Buttons
-  const buttons = document.querySelectorAll('.button-navigation');
-  buttons.forEach((button) => {
-    if (button.classList.contains('button-tab-1')) {
-      button.classList.add('active-tab');
-    } else {
-      button.classList.remove('active-tab');
-    }
-  }); */
 };
 
 export default loadAboutTab;
