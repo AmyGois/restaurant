@@ -23,6 +23,7 @@ const removeContent = () => {
   mainContent.innerHTML = '';
 };
 
+/* Button event listener functions */
 const displayAboutTab = () => {
   removeContent();
   updateButtons('button-tab-1');
